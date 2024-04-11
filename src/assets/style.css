@@ -48,7 +48,7 @@ body{
 .iyd-main {
     background: hsla(264, 45%, 98%, 0.93);
     position: relative;
-    overflow-y: hidden;
+    overflow: hidden;
   }
   
   .iyd-header{

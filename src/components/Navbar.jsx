@@ -32,7 +32,7 @@ const Navbar = () => {
                 </HashLink>
             </div>
             <div className="links" placed="left">
-                <div className="main dark-color primary">
+                <div className="main dark-color primary xui-bg-white">
                     <ul>
                         <li>
                             <HashLink className="xui-font-sz-150 nav-links xui-md-font-sz-200 xui-lg-font-sz-100 xui-font-w-bold xui-text-inherit" smooth to={"/"}>Home</HashLink>

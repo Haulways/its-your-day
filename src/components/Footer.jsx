@@ -12,7 +12,7 @@ export default function Footer(){
     return(
         <>
             <section className="xui-pt-3 xui-pb-5 xui-container iyd-blue-bg xui-text-white footer">
-                <div className='xui-d-grid xui-lg-grid-col-4 xui-grid-col-2'>
+                <div className='xui-d-grid xui-lg-grid-col-4 xui-grid-col-1 xui-lg-grid-gap-1 xui-grid-gap-2'>
                     <div>
                         <p className='xui-font-sz-90 bold-font'>Follow us</p>
                         <img className="xui-mt-1 xui-img-150" src={Socials} alt="" />
