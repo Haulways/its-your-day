@@ -1,0 +1,137 @@
+@font-face {
+    font-display: swap;
+    /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: "poppins-bold";
+    font-style: normal;
+    font-weight: 100;
+    src: url("../assets/fonts/Poppins/Poppins-Medium.ttf") format("woff");
+}
+@font-face {
+    font-display: swap;
+    /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: "poppins";
+    font-style: normal;
+    font-weight: bold;
+    src: url("../assets/fonts/Poppins/Poppins-Regular.ttf") format("woff");
+}
+:root{
+    --dark-blue: #020031;
+    --orange: #FFB900;
+    --light-blue: #F9F9F9;
+}
+.iyd-text-blue{
+    color: var(--dark-blue);
+}
+.iyd-light-blue-bg{
+    background-color: var(--light-blue);
+}
+.iyd-blue-bg{
+    background-color: var(--dark-blue);
+}
+body{
+    font-family: 'poppins', sans-serif;
+}
+.bold-font{
+    font-family: "poppins-bold";
+}
+.iyd-nav{
+    background: none;
+}
+.iyd-nav a:not(.signup){
+    color: var(--dark-blue);
+    font-family: "poppins-bold";
+    font-weight: 500;
+}
+.iyd-nav .signup{
+    box-shadow: 0px 10px 10px 0px #0200314D;
+}
+.iyd-main {
+    background: hsla(264, 45%, 98%, 0.93);
+    position: relative;
+    overflow-y: hidden;
+  }
+  
+  .iyd-header{
+    background: rgba(249, 249, 249, 0.63);
+    z-index: 2;
+    position: relative;
+    backdrop-filter: blur(2rem);
+  }
+  
+  .circle1 {
+    position: absolute;
+    top: -100px;
+    left: -50px;
+    background: linear-gradient( to right bottom, rgba(255, 185, 0, 0.3), rgba(255, 185, 0, 0.3));
+    height: 500px;
+    width: 600px;
+    position: absolute;
+    border-radius: 50%;
+  }
+  .header-underline::before{
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 3px;
+    background-color: var(--orange);
+    bottom: 0;
+    left: 0;
+  }
+  .features-underline::before,
+  .benefits-underline::before{
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 4px;
+    background-color: var(--orange);
+    top: -8px;
+    left: -24px;
+    width: 90px;
+  }
+  .benefits-underline::before{
+    bottom: -8px;
+    top: initial;
+    right: -24px;
+    left: initial;
+  }
+  .feature:hover, .benefit:hover{
+    background-color: var(--dark-blue);
+    color: #FFF !important;
+  }
+  .feature:hover span, .benefit:hover span{
+    background-color: #FFF;
+  }
+  .feature:hover span svg path{
+    fill: var(--dark-blue);
+  }
+  .feature:hover a{
+    color: #FFF;
+    border: 1px solid #FFF !important;
+  }
+  .feature, .benefit{
+    transition: .4s ease;
+  }
+  .benefit:hover p{
+    color: #FFF;
+  }
+  .benefit:hover span svg{
+    color: var(--dark-blue);
+  }
+  .benefit{
+    padding: 1rem;
+    border-radius: 1rem;
+  }
+  .footer a{
+    color: #FFF;
+    text-decoration: none;
+    margin-top: 1rem;
+    display: block;
+    width: 100%;
+  }
+  .contact-input{
+    opacity: 1;
+  }
+  /* .features-swiper .swiper-wrapper{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+  } */
