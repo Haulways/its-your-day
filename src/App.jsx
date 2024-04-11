@@ -15,6 +15,7 @@ function App() {
   }
   return (
     <>
+    <Loader />
       <Suspense fallback={<Loader />}>
       <ScrollToTop />
         <Routes>

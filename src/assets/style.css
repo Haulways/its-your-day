@@ -131,7 +131,40 @@ body{
   .contact-input{
     opacity: 1;
   }
-  /* .features-swiper .swiper-wrapper{
-    display: grid;
-    grid-template-columns: repeat(5,1fr);
-  } */
+  .hsd-loader-screen {
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #fff;
+    color: var(--blue-light);
+}
+.hsd-loader-screen .hsd-loader-holder {
+    margin-top: 16px;
+    width: 100%;
+    height: 4px;
+    background-color: hsl(220, 52%, 15%);
+    position: relative;
+    overflow: hidden;
+}
+.hsd-loader-screen .hsd-loader-holder .hsd-loader-anime {
+    width: 72px;
+    height: 100%;
+    background-color: var(--orange);
+    position: absolute;
+    top: 0;
+    animation-name: loader;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    animation-duration: .8s;
+    animation-timing-function: linear;
+}
+@keyframes loader {
+    from {
+        left: -72px;
+    }
+    to {
+        left: 200px;
+    }
+}
