@@ -18,7 +18,7 @@ export default function EventTracking(){
                             </span>
                         </HashLink>
                     </div>
-                    <div className='xui-lg-col-6 xui-col-12 xui-pl-1'>
+                    <div className='xui-lg-col-6 xui-col-12 xui-lg-pl-1 xui-pl-none xui-lg-mt-none xui-mt-1'>
                         <img className="xui-img-500 xui-mx-auto" src={Event} alt="" />
                     </div>
                 </div>
