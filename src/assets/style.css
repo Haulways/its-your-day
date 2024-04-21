@@ -18,12 +18,20 @@
     --dark-blue: #020031;
     --orange: #FFB900;
     --light-blue: #F9F9F9;
+    --blue: #ECECEC;
+    --purple: #CEC1FF;
 }
 .iyd-text-blue{
     color: var(--dark-blue);
 }
 .iyd-light-blue-bg{
-    background-color: var(--light-blue);
+    background-color: var(--light-blue) !important;
+}
+.iyd-bg-blue{
+    background-color: var(--blue) !important;
+}
+.iyd-bg-purple{
+    background-color: var(--purple) !important;
 }
 .iyd-blue-bg{
     background-color: var(--dark-blue);
@@ -36,6 +44,17 @@ body{
 }
 .iyd-nav{
     background: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+.xui-bg-none{
+  background: none;
+  border: none;
+  outline: none;
+}
+.search-keyword{
+  border: 1.5px solid #D9D9D9
 }
 .iyd-nav a:not(.signup){
     color: var(--dark-blue);
@@ -44,6 +63,9 @@ body{
 }
 .iyd-nav .signup{
     box-shadow: 0px 10px 10px 0px #0200314D;
+}
+.alternative-nav-color{
+  background-color: var(--light-blue);
 }
 .iyd-main {
     background: hsla(264, 45%, 98%, 0.93);

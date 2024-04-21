@@ -8,8 +8,8 @@ export default function Header(){
         <>
             <section className="iyd-main-holder xui-pos-relative">
                 <section className="iyd-main xui-pb-3">
-                    <section className="iyd-header">
-                        <Navbar />
+                    <section className="iyd-header xui-pt-6">
+                        {/* <Navbar /> */}
                         <div className="xui-d-flex xui-flex-ai-center xui-lg-flex-dir-row xui-flex-dir-column-reverse xui-container">
                             <div className="xui-lg-col-7 xui-col-12">
                                 <h1 className="xui-lg-font-sz-220 xui-font-sz-180 xui-lg-w-fluid-80 xui-w-fluid-100 bold-font xui-font-w-100">The Future of Event Management System just got better with <span className="xui-font-w-700 xui-pos-relative header-underline iyd-text-blue">ItsYourDay</span></h1>

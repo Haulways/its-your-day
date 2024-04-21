@@ -1,5 +1,6 @@
 import { ArrowRight, ArrowUpRight, Send } from "@carbon/icons-react";
 import { useForm } from "react-hook-form";
+import { Link } from "react-router-dom";
 import { HashLink } from "react-router-hash-link";
 import Socials from "../assets/images/socials.png";
 
@@ -24,7 +25,7 @@ export default function Footer(){
                     </div>
                     <div>
                         <p className='xui-font-sz-90 bold-font'>Explore</p>
-                        <HashLink smooth to="#" className="xui-opacity-6 xui-font-sz-80">Privacy Policy</HashLink>
+                        <Link smooth to="/privacy-policy" className="xui-opacity-6 xui-font-sz-80">Privacy Policy</Link>
                         <HashLink smooth to="#" className="xui-opacity-6 xui-font-sz-80 xui-mt-1-half">Contact us</HashLink>
                     </div>
                   
