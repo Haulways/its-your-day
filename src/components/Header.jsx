@@ -33,7 +33,7 @@ export default function Header(){
                             </div>
                         </div>
                     </section>
-                    <div className="circle1"></div>
+                    {/* <div className="circle1"></div> */}
                 </section>
             </section>
           

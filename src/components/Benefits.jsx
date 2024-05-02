@@ -5,7 +5,7 @@ export default function Benefits(){
    
     return(
         <>
-            <section className="xui-pt-2 xui-pb-5 xui-container iyd-light-blue-bg">
+            <section id="benefits" className="xui-pt-2 xui-pb-5 xui-container iyd-light-blue-bg">
                 <div className='xui-row'>
                     <div className='xui-lg-col-6 xui-col-12'>
                         <img className="xui-img-500" src={BenefitsImage} alt="" />

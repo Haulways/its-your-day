@@ -12,7 +12,7 @@ export default function Footer(){
     }
     return(
         <>
-            <section className="xui-pt-3 xui-pb-5 xui-container iyd-blue-bg xui-text-white footer">
+            <section id="contact" className="xui-pt-3 xui-pb-5 xui-container iyd-blue-bg xui-text-white footer">
                 <div className='xui-d-grid xui-lg-grid-col-4 xui-grid-col-1 xui-lg-grid-gap-1 xui-grid-gap-2'>
                     <div>
                         <p className='xui-font-sz-90 bold-font'>Follow us</p>
@@ -20,13 +20,13 @@ export default function Footer(){
                     </div>
                     <div>
                         <p className='xui-font-sz-90 bold-font'>Quick Links</p>
-                        <HashLink smooth to="#" className="xui-opacity-6 xui-font-sz-80">About us</HashLink>
-                        <HashLink smooth to="#" className="xui-opacity-6 xui-font-sz-80 xui-mt-1-half">Contact us</HashLink>
+                        <HashLink smooth to="/#features" className="xui-opacity-6 xui-font-sz-80">Features</HashLink>
+                        <HashLink smooth to="/#benefits" className="xui-opacity-6 xui-font-sz-80 xui-mt-1-half">Benefits</HashLink>
                     </div>
                     <div>
                         <p className='xui-font-sz-90 bold-font'>Explore</p>
                         <Link smooth to="/privacy-policy" className="xui-opacity-6 xui-font-sz-80">Privacy Policy</Link>
-                        <HashLink smooth to="#" className="xui-opacity-6 xui-font-sz-80 xui-mt-1-half">Contact us</HashLink>
+                        <HashLink smooth to="/#contact" className="xui-opacity-6 xui-font-sz-80 xui-mt-1-half">Contact us</HashLink>
                     </div>
                   
                     <div>

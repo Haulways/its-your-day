@@ -38,13 +38,13 @@ const Navbar = () => {
                             <HashLink className="xui-font-sz-150 nav-links xui-md-font-sz-200 xui-lg-font-sz-100 xui-font-w-bold xui-text-inherit" smooth to={"/"}>Home</HashLink>
                         </li>
                         <li>
-                            <HashLink className="xui-font-sz-150 nav-links xui-md-font-sz-200 xui-lg-font-sz-100 xui-font-w-bold xui-text-inherit" smooth to={"/about"}>About us</HashLink>
+                            <HashLink className="xui-font-sz-150 nav-links xui-md-font-sz-200 xui-lg-font-sz-100 xui-font-w-bold xui-text-inherit" smooth to={"/#features"}>Features</HashLink>
                         </li>
                         <li>
-                            <HashLink className="xui-font-sz-150 nav-links xui-md-font-sz-200 xui-lg-font-sz-100 xui-font-w-bold xui-text-inherit" smooth to={"/membership"}>Services</HashLink>
+                            <HashLink className="xui-font-sz-150 nav-links xui-md-font-sz-200 xui-lg-font-sz-100 xui-font-w-bold xui-text-inherit" smooth to={"/#benefits"}>Benefits</HashLink>
                         </li>
                         <li>
-                            <HashLink className="xui-font-sz-150 nav-links xui-md-font-sz-200 xui-lg-font-sz-100 xui-font-w-bold xui-text-inherit" smooth to={"/brand-advert"}>Contact</HashLink>
+                            <HashLink className="xui-font-sz-150 nav-links xui-md-font-sz-200 xui-lg-font-sz-100 xui-font-w-bold xui-text-inherit" smooth to={"/#contact"}>Contact</HashLink>
                         </li>
                      
                     </ul>

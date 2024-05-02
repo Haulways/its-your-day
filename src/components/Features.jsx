@@ -27,7 +27,7 @@ export default function Features(){
     };
     return(
         <>
-            <section className="xui-pt-2 xui-pb-5 xui-container">
+            <section id='features' className="xui-pt-2 xui-pb-5 xui-container">
                 <div className="xui-d-flex xui-flex-jc-center xui-flex-ai-center">
                     <h3 className="xui-font-sz-180 xui-text-center bold-font features-underline xui-pos-relative xui-d-inline-block">Features</h3>
                 </div>
